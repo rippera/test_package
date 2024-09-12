@@ -53,6 +53,9 @@ var PrecognitionContext = import_react.default.createContext({
 
 // src/hooks/usePrecognition.ts
 var import_react2 = __toESM(require("react"), 1);
+
+// src/types/index.ts
+var types_default = PrecognitionWrapper;
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Precognition,

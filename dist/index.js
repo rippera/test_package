@@ -16,6 +16,9 @@ var PrecognitionContext = React.createContext({
 
 // src/hooks/usePrecognition.ts
 import React2 from "react";
+
+// src/types/index.ts
+var types_default = PrecognitionWrapper;
 export {
   Precognition,
   PrecognitionContext

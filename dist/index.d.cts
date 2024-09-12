@@ -35,11 +35,10 @@ type PrecognitionReturnType<T> = {
     loading: boolean;
 };
 declare const usePrecognition: <T>(props: Props) => PrecognitionReturnType<T>;
-declare const PrecognitionWrapper: React.FC<PrecognitionProviderProps>;
 
 declare const Precognition: {
     init: (params: PrecognitionConfig) => void;
 };
 declare const PrecognitionContext: React.Context<PrecognitionConfigType>;
 
-export { Precognition, type PrecognitionConfig, type PrecognitionConfigType, PrecognitionContext, type PrecognitionProviderProps, type PrecognitionReturnType, type PrecognitionType, PrecognitionWrapper, type Props, type RequestMethodTypes, type ResponseReturType, usePrecognition };
+export { Precognition, type PrecognitionConfig, type PrecognitionConfigType, PrecognitionContext, type PrecognitionProviderProps, type PrecognitionReturnType, type PrecognitionType, type Props, type RequestMethodTypes, type ResponseReturType, usePrecognition };
